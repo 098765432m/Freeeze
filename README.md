@@ -5,4 +5,4 @@ html
   body : thân 
     gird : Độ rộng trang web
       row : Độ rộng hàng
-        column : Chia cột
+        column : Chia cột 
