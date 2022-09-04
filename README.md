@@ -5,4 +5,8 @@ html
   body : thân 
     gird : Độ rộng trang web
       row : Độ rộng hàng
-        column : Chia cột 
+        column : Chia cột (nếu có)
+        header : Đầu trang
+        main : Thân trang
+        footer : Chân trang
+        
