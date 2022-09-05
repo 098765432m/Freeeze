@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng ký</title>
+    <title>Đăng Ký Thành Viên</title>
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel="stylesheet" href="../CSS/dangky.css">
@@ -33,7 +33,48 @@
         </header>
         <!-- Main -->
         <main>
-
+            <section>
+                <fieldset>
+                    <legend>Đăng ký</legend>
+                    <form action="#" method="post" enctype="multipart/form-data">
+                        <table>
+                            <tr>
+                                <td><label for="Nhap_Email">Email:</label></td>
+                                <td><input type="text" name="Nhap_Email" id="Nhap_Email"
+                                        placeholder="Vui lòng nhập Email"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Nhap_pass1">Mật khẩu:</label></td>
+                                <td><input type="password" name="Nhap_pass1" id="Nhap_pass1"
+                                        placeholder="Vui lòng nhập mật khẩu"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Nhap_pass2">Nhập lại mật khẩu:</label></td>
+                                <td><input type="password" name="Nhap_pass2" id="Nhap_pass2"
+                                        placeholder="Vui lòng nhập mật khẩu"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="memberType">Cấp độ thành viên của bạn:</label></td>
+                                <td>
+                                    <input type="radio" name="memberType" id="memberType1"> Bạc
+                                    <input type="radio" name="memberType" id="memberType2"> Vàng
+                                    <input type="radio" name="memberType" id="memberType3"> Bạch kim
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="Nhap_image">Ảnh đại diện:</label></td>
+                                <td><input type="file" name="Nhap_image" id="Nhap_image"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="reset" name="btn_reset" id="btn_reset" value="Hủy">
+                                    <input type="submit" name="btn_submit" id="btn_submit" value="Đăng ký">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </fieldset>
+            </section>
         </main>
         <!-- Footer -->
         <footer>
